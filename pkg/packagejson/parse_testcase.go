@@ -1,4 +1,4 @@
-package npm
+package packagejson
 
 import "github.com/aquasecurity/go-dep-parser/pkg/types"
 
