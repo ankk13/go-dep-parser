@@ -190,4 +190,9 @@ var (
 		{"ms", "2.1.1"},
 		{"send", "0.17.1"},
 	}
+
+	// manually created
+	NpmSimple = []types.Library{
+		{"bootstrap", "5.0.2", "MIT"},
+	}
 )

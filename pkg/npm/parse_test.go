@@ -38,6 +38,10 @@ func TestParse(t *testing.T) {
 			file: "testdata/package-lock_nested.json",
 			want: NpmNested,
 		},
+		{
+			file: "testdata/package-simple.json",
+			want: NpmSimple,
+		},
 	}
 
 	for _, v := range vectors {
